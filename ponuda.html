@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Ponuda | GEAGROOM</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark" data-site-key="business.brandMark">GEA</span><span data-site-key="business.brandWord">GROOM</span></a>
+<button aria-label="Otvori izbornik" class="nav-toggle">☰</button>
+<nav class="nav">
+<a href="index.html">Početna</a><a href="o-meni.html">O meni</a><a class="active" href="ponuda.html">Ponuda</a>
+<a href="cjenik.html">Cjenik</a><a href="galerija.html">Galerija</a><a href="kontakt.html">Kontakt</a>
+<a class="nav-cta" href="kontakt.html#rezervacija">Rezerviraj termin</a>
+</nav></header>
+<main>
+<section class="page-hero">
+<span class="eyebrow">GEAGROOM PONUDA</span>
+<h1>Odaberi <em>nježni tretman</em></h1>
+<p>Klikni na „Saznaj više” i otvori detaljan opis svakog tretmana.</p>
+</section>
+<section class="offer-section section">
+<div class="section-heading center">
+<span class="eyebrow">GLAVNI TRETMANI</span>
+<h2>Njega prilagođena <em>vašem ljubimcu</em></h2>
+<p>Svaki tretman prilagođavamo pasmini, tipu dlake, stanju dlake i ponašanju psa.</p>
+</div>
+<div class="offer-grid" data-site-services="main"></div>
+<div class="section-heading center extra-heading">
+<span class="eyebrow">DODATNE USLUGE</span>
+<h2>Mali detalji koji čine <em>veliku razliku</em></h2>
+</div>
+<div class="extra-offer-grid" data-site-services="extra"></div>
+</section>
+<section class="gold-tip">
+<div class="gold-paw">🐾</div><div><span class="eyebrow">GEAGROOM SAVJET</span><h2>Ne znate što odabrati?</h2><p>Pošaljite nam pasminu, veličinu psa i kratko opišite dlaku. Rado ćemo preporučiti tretman koji mu najbolje odgovara.</p></div>
+<a class="btn btn-primary" href="kontakt.html#rezervacija">Pitaj nas →</a>
+</section>
+</main>
+<div aria-hidden="true" class="offer-modal" id="offerModal">
+<div class="offer-modal-backdrop"></div>
+<div aria-labelledby="modalTitle" aria-modal="true" class="offer-modal-box" role="dialog">
+<button aria-label="Zatvori" class="modal-close">×</button>
+<div class="modal-paw">🐾</div><span class="eyebrow">GEAGROOM PONUDA</span>
+<h2 id="modalTitle"></h2><p id="modalText"></p>
+<div class="modal-details"><div><strong>♡</strong><span>Nježan pristup</span></div><div><strong>✦</strong><span>Prilagođeno psu</span></div><div><strong>🐾</strong><span>Valpovo</span></div></div>
+<a class="btn btn-primary" href="kontakt.html#rezervacija">Rezerviraj termin <span>→</span></a>
+</div></div>
+<footer class="footer">
+<div><a class="brand footer-brand" href="index.html"><span class="brand-mark" data-site-key="business.brandMark">GEA</span><span data-site-key="business.brandWord">GROOM</span></a><p data-site-key="business.tagline">Salon za šišanje i njegu pasa</p></div>
+<div><strong>Adresa</strong><p data-site-key="business.address">B. J. Jelačića 111<br/>31550 Valpovo</p></div>
+<div><strong>Telefon</strong><p><a data-site-key="business.phone" data-site-phone-link="true" href="tel:+385955320760">095 532 0760</a></p></div>
+</footer>
+<div class="copyright">© <span id="year"></span> GEAGROOM · vl. Marinela Mitrović</div>
+<script src="script.js"></script>
+</body></html>
